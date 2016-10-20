@@ -17,7 +17,7 @@ This extension adds general support for spatialized audio in glTF scenes.  Audio
 
 | Property                     | Type         | Description | Default Value |
 |:----------------------------:|:------------:|:-----------:|:-------------:|
-| `source`                    |  string | The audio source ID | None |
+| `source`                    |  string | ID of the audio source container | None |
 | `volume`                    |  `float` | The factor by which the audio source's volume is scaled for playback. An Audio source with volume 0.0 is considered to be disabled, and may be ignored | 0.0 |
 | `reflection`                    |  string | Audio source attenuation mode | false |
 | `attenuation`                    |  `boolean` | Denotes whether reflection should be enabled (true) or disabled (false) | 'NONE' |
