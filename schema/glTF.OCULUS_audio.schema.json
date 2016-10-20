@@ -1,0 +1,21 @@
+{
+	"$schema" : "http://json-schema.org/draft-03/schema",
+	"title" : "Oculus Audio extension",
+	"type" : "object",
+	"properties" : {
+		"audio" : {
+			"type" : "object",
+			"description" : "A dictionary object of audio sources.",
+			"properties" : {
+			},
+			"additionalProperties" : {
+				"$ref" : "audio.schema.json"
+			},
+			"default" : {}
+		}
+
+	},
+	"additionalProperties" : false
+}
+
+

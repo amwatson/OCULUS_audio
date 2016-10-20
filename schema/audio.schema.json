@@ -1,0 +1,18 @@
+{
+    "$schema" : "http://json-schema.org/draft-03/schema",
+    "title" : "audio",
+    "type" : "object",
+    "description" : "Data used to create an audio source",
+    "extends" : { "$ref" : "glTFChildOfRootProperty.schema.json" },
+    "properties" : {
+        "uri" : {
+            "type" : "string",
+            "description" : "The uri of the audio source.",
+            "format" : "uri",
+            "required" : true,
+            "gltf_detailedDescription" : "The uri of the audio source.  Relative paths are relative to the .gltf file.  Instead of referencing an external file, the uri can also be a data-uri.",
+            "gltf_uriType" : "Application"
+        }
+    },
+    "additionalProperties" : false
+}
